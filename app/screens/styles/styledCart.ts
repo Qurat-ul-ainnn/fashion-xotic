@@ -141,4 +141,43 @@ export const CartContainer = styled.div`
     width: 50%;
     padding: 5px;
   }
+  .coupon-card {
+    background-color: #f8f8f8;
+    border-radius: 12px;
+    padding: 16px;
+    margin-top: 20px;
+  }
+
+  .coupon-card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  .coupon-card p {
+    font-size: 14px;
+    color: #6c7275;
+    margin-bottom: 12px;
+  }
+
+  .coupon-card input {
+    width: 100%;
+    font-size: 14px;
+  }
+  .input {
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    border: 0.5px solid #6c7275;
+    border-radius: 8px;
+    width: 424px;
+    padding: 10px;
+  }
+  .coupon-btn {
+    color: #38cb89;
+    font-weight: 500;
+    font-size: 16px;
+    width: 43px;
+    height: 28px;
+  }
 `;
