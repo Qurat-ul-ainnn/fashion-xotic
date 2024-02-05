@@ -171,7 +171,13 @@ export const CartContainer = styled.div`
     border: 0.5px solid #6c7275;
     border-radius: 8px;
     width: 424px;
+
     padding: 10px;
+  }
+  .input-fieldcoupon {
+    width: 100%;
+    border: none;
+    outline: none;
   }
   .coupon-btn {
     color: #38cb89;

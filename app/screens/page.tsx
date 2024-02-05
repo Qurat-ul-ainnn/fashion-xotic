@@ -50,7 +50,6 @@ const CartMainPage = () => {
         </div>
         <div
           style={{
-            backgroundColor: "#f8f8f8",
             borderRadius: "12px",
             padding: "16px",
             marginTop: "20px",
@@ -68,6 +67,7 @@ const CartMainPage = () => {
           </p>
           <div className="input">
             <input
+              className="input-fieldcoupon"
               type="text"
               placeholder="Enter coupon code"
               value={couponCode}
@@ -87,6 +87,7 @@ const CartMainPage = () => {
               <div>$0.00</div>
             </div>
           </div>
+
           <CustomSelectField defaultValue="Country">
             <option disabled>Country</option>
           </CustomSelectField>

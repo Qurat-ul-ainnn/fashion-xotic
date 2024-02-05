@@ -119,9 +119,9 @@ const PaymentPage: React.FC = () => {
                 <div>
                   Black Elegant Solid Patchwork Buckle Off the Shoulder Long...
                 </div>
-                <div>Color:Black Size:M</div>
+                <div className="product">Color:Black Size:M</div>
               </div>
-              <div>$38.00</div>
+              <div className="price">$38.00</div>
             </div>
           </div>
           <div className="prouct-details">
@@ -131,17 +131,21 @@ const PaymentPage: React.FC = () => {
                 <div>
                   Black Elegant Solid Patchwork Buckle Off the Shoulder Long...
                 </div>
-                <div>Color:Black Size:M</div>
+                <div className="product">Color:Black Size:M</div>
               </div>
               <div>$38.00</div>
             </div>
+          </div>
+          <div className="inputContainer">
+            <input className="coupon-input" type="text" placeholder="Input" />
+            <button className="apply-btn">Apply</button>
           </div>
 
           <div className="ShipmentContainer">
             <div>Shipping</div>
             <div>Free</div>
           </div>
-          <div className="SubtotalContainer">
+          <div className="SubtotalContainerr">
             <div>Subtotal</div>
             <div>$99.00</div>
           </div>

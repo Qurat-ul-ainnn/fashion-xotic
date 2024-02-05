@@ -15,12 +15,12 @@ const InformationPage: React.FC = () => {
         <div className="card card1">
           <div className="title">Contact Information</div>
           <div className="SubtotalContainer">
-            <div>Email to</div>
-            <div>muzammirafique007@gmail.com</div>
+            <div className="label">Email to</div>
+            <div className="vlaue">muzammirafique007@gmail.com</div>
           </div>
           <div className="SubtotalContainer more">
-            <div>Ship to</div>
-            <div>Boota Street, Kot Radha Kishen, Kasur</div>
+            <div className="label">Ship to</div>
+            <div className="value">Boota Street, Kot Radha Kishen, Kasur</div>
           </div>
         </div>
         <div className="card card2">
@@ -282,9 +282,9 @@ const InformationPage: React.FC = () => {
                 <div>
                   Black Elegant Solid Patchwork Buckle Off the Shoulder Long...
                 </div>
-                <div>Color:Black Size:M</div>
+                <div className="product">Color:Black Size:M</div>
               </div>
-              <div>$38.00</div>
+              <div className="price">$38.00</div>
             </div>
           </div>
           <div className="prouct-details">
@@ -294,7 +294,7 @@ const InformationPage: React.FC = () => {
                 <div>
                   Black Elegant Solid Patchwork Buckle Off the Shoulder Long...
                 </div>
-                <div>Color:Black Size:M</div>
+                <div className="product">Color:Black Size:M</div>
               </div>
               <div>$38.00</div>
             </div>
@@ -308,7 +308,7 @@ const InformationPage: React.FC = () => {
             <div>Shipping</div>
             <div>Free</div>
           </div>
-          <div className="SubtotalContainer">
+          <div className="SubtotalContainerr">
             <div>Subtotal</div>
             <div>$99.00</div>
           </div>

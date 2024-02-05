@@ -18,6 +18,7 @@ font-size:
 16px;
 line-height
 26px;
+outline:none;
 `;
 
 interface CustomSelectFieldProps {

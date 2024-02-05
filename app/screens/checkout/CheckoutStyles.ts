@@ -54,9 +54,146 @@ export const InformationPageContainer = styled.div`
   .card3 {
     height: auto;
   }
-  .card3 {
+  
+
+
+  /* Add these CSS rules to your stylesheet or style tag */
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payment-button {
+    padding: 10px;
+    margin: 5px;
     border: none;
-  }
+    border-radius: 5px;
+    cursor: pointer;
+    width: 60%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.payment-button.primary {
+    background-color: #FFD600;
+    color: #253B80;
+}
+
+.payment-button:not([data-order="3"]) {
+    background-color: yellow; /* Replace with desired color for the third button */
+    color: #000;
+}
+
+.third-button {
+    position: relative;
+    width: 60%;
+    height: 40px;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: gray;
+    background-image: url("https://s3-alpha-sig.figma.com/img/f9f4/729f/ffb4d5de73068b7c38ebee28e4d83c06?Expires=1707696000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TrwFZXF0z2rAl-JS9aqB2dS3SovQrcuVmSoth5P6yU4Ja2RW1OQxjS-QQ3mq2gmixjhjucUK1~HHaxsvePjmqeSsyBh5shaIMNJcEffj27sGIwt8ryi3n65OeLW7niJLBIh-BL0SyVLAbBcDnwDMKJ0WKs7LiL0ji6oIxIbsyW5gmEoIU4iAMzMYp5BVk~QqIIp6N4XNQbTiJCFzCceOTG6A1ANrUtFfOz~Wlp9vzAbGMDsdUZR3kKgcfT9IxJgDyhbIKzq66E1pTm8gfUCDLcPrNT1JPYnKkxChJya1pqxaGkfbFU67P2fVw4IosPsAjYcyg7u6FBh8r99XwFwPsQ__");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.third-button:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* Add these CSS rules to your stylesheet or style tag */
+
+.input-container {
+    display: grid;
+    gap: 10px;
+}
+
+.input-row {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* Add these CSS rules to your stylesheet or style tag */
+
+.address-container {
+    display: grid;
+    gap: 10px;
+}
+
+.address-row {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.select-field,
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.checkbox-input {
+    margin: 0;
+}
+.input-field:focus,
+.select-field:focus,
+.checkbox-input:focus,
+.coupon-input:focus,
+.remarks:focus,
+.select-card:focus,
+.cardNO:focus {
+  outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   .heading {
     font-size: 28px;
     font-weight: 500;
